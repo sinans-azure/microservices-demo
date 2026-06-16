@@ -206,7 +206,7 @@ spec:
           value: "1"
         resources:
           requests:
-            cpu: 200m
+            cpu: 150m
             memory: 220Mi
           limits:
             cpu: 700m
@@ -397,7 +397,7 @@ spec:
             command: ["/bin/grpc_health_probe", "-addr=:50051"]
         resources:
           requests:
-            cpu: 200m
+            cpu: 100m
             memory: 64Mi
           limits:
             cpu: 700m
@@ -517,7 +517,7 @@ spec:
           value: "redis-cart:6379"
         resources:
           requests:
-            cpu: 200m
+            cpu: 100m
             memory: 64Mi
           limits:
             cpu: 300m
@@ -609,7 +609,7 @@ spec:
           value: "10"
         resources:
           requests:
-            cpu: 200m
+            cpu: 100m
             memory: 256Mi
           limits:
             cpu: 500m
@@ -788,7 +788,7 @@ spec:
         resources:
           limits:
             memory: 256Mi
-            cpu: 125m
+            cpu: 100m
           requests:
             cpu: 70m
             memory: 200Mi
